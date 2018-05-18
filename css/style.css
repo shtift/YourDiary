@@ -1,0 +1,228 @@
+.hide {
+    display: none !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    min-width: 800px;
+    background: #f2f2f2;
+}
+
+
+.header {
+    background: #222629;
+    min-height: 60px;
+}
+
+a > i, button > i {
+    margin-right: 5px;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 176px;
+    height: 37px;
+}
+
+.new-entry {
+    color: #948c7b;
+    background-color: #313233;
+    border: none;
+    padding: 20px;
+}
+
+.entry {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 3px 0 #948e8e, inset 0 4px 0 #B88B58;;
+}
+.entry-header {
+    font-size: 14px;
+    color:darkgray;
+}
+.entry-controls button {
+    border: none;
+    color:darkgray;
+    background: transparent;    
+
+}
+
+.entry-controls button:focus {
+    outline: none;
+}
+
+.entry-controls button:hover{
+    cursor: pointer;
+    color: #444;
+}
+
+.entry-body {
+    padding-top: 20px;
+}
+
+.btn-save-post {
+    background-color: #b88b58;
+    border-color: #986e3d;
+}
+
+.btn-save-post:hover, .btn-save-post:active {
+    background-color: #a16f35;
+    border-color: #986e3d;
+}
+
+.no-posts {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.no-posts img {
+    width: 300px;
+    opacity: 0.7;
+}
+
+.no-posts span {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400px;
+    color: darkgrey;
+    margin-top: 30px;
+}
+
+
+/*---Loading animation---*/
+
+
+#loadFacebookG{
+	width:70px;
+	height: 70px;
+	display: block;
+	position: relative;
+    margin:auto;
+    margin-top: 200px;
+}
+
+.facebook_blockG{
+	background-color:rgb(242,242,242);
+	border:2px solid rgb(184,139,88);
+	float:left;
+	height:50px;
+	margin-left:4px;
+	width:13px;
+	opacity:0.1;
+	animation-name:bounceG;
+		-o-animation-name:bounceG;
+		-ms-animation-name:bounceG;
+		-webkit-animation-name:bounceG;
+		-moz-animation-name:bounceG;
+	animation-duration:1.5s;
+		-o-animation-duration:1.5s;
+		-ms-animation-duration:1.5s;
+		-webkit-animation-duration:1.5s;
+		-moz-animation-duration:1.5s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
+	transform:scale(0.7);
+		-o-transform:scale(0.7);
+		-ms-transform:scale(0.7);
+		-webkit-transform:scale(0.7);
+		-moz-transform:scale(0.7);
+}
+
+#blockG_1{
+	animation-delay:0.45s;
+		-o-animation-delay:0.45s;
+		-ms-animation-delay:0.45s;
+		-webkit-animation-delay:0.45s;
+		-moz-animation-delay:0.45s;
+}
+
+#blockG_2{
+	animation-delay:0.6s;
+		-o-animation-delay:0.6s;
+		-ms-animation-delay:0.6s;
+		-webkit-animation-delay:0.6s;
+		-moz-animation-delay:0.6s;
+}
+
+#blockG_3{
+	animation-delay:0.75s;
+		-o-animation-delay:0.75s;
+		-ms-animation-delay:0.75s;
+		-webkit-animation-delay:0.75s;
+		-moz-animation-delay:0.75s;
+}
+
+
+
+@keyframes bounceG{
+	0%{
+		transform:scale(1.2);
+		opacity:1;
+	}
+
+	100%{
+		transform:scale(0.7);
+		opacity:0.1;
+	}
+}
+
+@-o-keyframes bounceG{
+	0%{
+		-o-transform:scale(1.2);
+		opacity:1;
+	}
+
+	100%{
+		-o-transform:scale(0.7);
+		opacity:0.1;
+	}
+}
+
+@-ms-keyframes bounceG{
+	0%{
+		-ms-transform:scale(1.2);
+		opacity:1;
+	}
+
+	100%{
+		-ms-transform:scale(0.7);
+		opacity:0.1;
+	}
+}
+
+@-webkit-keyframes bounceG{
+	0%{
+		-webkit-transform:scale(1.2);
+		opacity:1;
+	}
+
+	100%{
+		-webkit-transform:scale(0.7);
+		opacity:0.1;
+	}
+}
+
+@-moz-keyframes bounceG{
+	0%{
+		-moz-transform:scale(1.2);
+		opacity:1;
+	}
+
+	100%{
+		-moz-transform:scale(0.7);
+		opacity:0.1;
+	}
+}
