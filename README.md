@@ -1,8 +1,8 @@
-#Your diary
+# Your diary
 
 Your personal diary.
 
-###Smart contract
+### Smart contract
 
 - `total()` - Returns total count of entries.
 
